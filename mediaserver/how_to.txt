@@ -1,0 +1,4 @@
+to run: docker-compose run
+
+sudo chown $(whoami):$(whoami) -R mediaserver-data/
+docker inspect f08d746152c4 | grep "IPAddress" -> get ip from container
