@@ -1,0 +1,3 @@
+sudo chown www-data:www-data -R /home/bs-coelho-nas/workspace/nextcloud/nextcloud-html-data/
+
+use the config file with docker or edit in /etc/telegraf/telegraf.conf and then systemctl restart telegraf
